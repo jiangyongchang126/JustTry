@@ -10,4 +10,7 @@
 
 @interface BaseViewController : UIViewController
 
+- (void)add;
+- (void)updateUI;
+
 @end

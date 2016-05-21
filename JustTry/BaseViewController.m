@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "Masonry.h"
 
 @interface BaseViewController ()
 
@@ -14,29 +15,32 @@
 
 @implementation BaseViewController
 
-- (void)viewDidAppear:(BOOL)animated{
-    
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hello) name:@"tongzhi" object:nil];
-}
 
-- (void)hello{
-    
-    NSLog(@"hello");
-    
-}
-
-- (void)dealloc{
-    
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hello) name:@"tongzhi" object:nil];
 
-    // Do any additional setup after loading the view.
+    [self add];
+    [self updateUI];
+
+}
+
+- (void)add{
+    
+    UIImageView *bgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loading_bg-3"]];
+    [self.view addSubview:bgView];
+    
+    [bgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.edges.equalTo(self.view);
+    }];
+
+}
+
+- (void)updateUI{
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

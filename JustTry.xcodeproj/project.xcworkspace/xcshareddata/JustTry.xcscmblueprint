@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1DCF58F03C359EAEF4BFEC0876E4C34DF704ECD7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "53a5c885-47fc-4905-a4bf-cd027ecd8509++7030" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "53a5c885-47fc-4905-a4bf-cd027ecd8509++7030" : 0,
+    "1DCF58F03C359EAEF4BFEC0876E4C34DF704ECD7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E1FC0865-3A05-42AE-BF98-76B6F0DE7D38",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "53a5c885-47fc-4905-a4bf-cd027ecd8509++7030" : "SVNJustTry\/",
+    "1DCF58F03C359EAEF4BFEC0876E4C34DF704ECD7" : "JustTry\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JustTry",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JustTry.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jiangyongchang126\/JustTry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DCF58F03C359EAEF4BFEC0876E4C34DF704ECD7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/182.254.243.63",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53a5c885-47fc-4905-a4bf-cd027ecd8509++7030"
+    }
+  ]
+}
