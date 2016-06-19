@@ -39,11 +39,13 @@
 // BlockView
     [self addBlockView];
     
-    
+    NSLog(@"蒋永昌");
+
     
     [self addBtn];
     
 
+    NSLog(@"jiangyongchang");
     
     // Do any additional setup after loading the view, typically from a nib.
 }
