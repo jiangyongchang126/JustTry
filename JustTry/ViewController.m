@@ -35,17 +35,14 @@
 // ShopCartEmptyView
     [self addShopChatEmptyView];
     
-    
+    // 哈哈哈哈👌
+    NSLog(@"nidayede");
 // BlockView
     [self addBlockView];
     
-    NSLog(@"jiangyongchang");
-
     
     [self addBtn];
     
-
-    NSLog(@"jiangyongchang");
     
     // Do any additional setup after loading the view, typically from a nib.
 }
