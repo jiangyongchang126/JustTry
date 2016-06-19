@@ -39,7 +39,7 @@
 // BlockView
     [self addBlockView];
     
-    NSLog(@"蒋永昌");
+    NSLog(@"jiangyongchang");
 
     
     [self addBtn];
